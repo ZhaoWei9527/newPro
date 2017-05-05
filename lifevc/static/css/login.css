@@ -1,0 +1,128 @@
+html {
+  font-size: 50px;
+}
+body,
+html {
+  height: 100%;
+}
+#login-wrap {
+  overflow: hidden;
+  height: 100%;
+}
+#login-wrap .old_user-login {
+  width: 100%;
+  height: 2.82rem;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+#login-wrap .old_user-login .iconfont {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-left: 12px;
+  font-size: 40px;
+  color: #88b84b;
+  border: 2px #88b84b solid;
+  border-radius: 50%;
+}
+#login-wrap .old_user-login img {
+  width: 2.4rem;
+  position: absolute;
+  top: 25%;
+  left: 33%;
+}
+#login-wrap .bg-wrap {
+  background: url("../img/login/loginbackground.jpg");
+  background-size: 100% 100%;
+  background-position: bottom;
+  height: 526px;
+}
+#login-wrap .bg-wrap .login-content {
+  width: 100%;
+  height: 6.5rem;
+  box-sizing: border-box;
+}
+#login-wrap .bg-wrap .login-content h1 {
+  width: 100%;
+  text-align: center;
+  color: #88b84b;
+  font-size: 20px;
+  line-height: 1.4rem;
+  margin-bottom: 14px;
+}
+#login-wrap .bg-wrap .login-content #wrap .fm_list li {
+  width: 90%;
+  margin: 0 auto;
+  height: 1rem;
+  border-bottom: 1px solid #dbdbdb;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#login-wrap .bg-wrap .login-content #wrap .fm_list li .field_ipt {
+  background-color: transparent;
+  font-size: 16px;
+}
+#login-wrap .bg-wrap .login-content #wrap .fm_list li .field_ipt:focus {
+  border: none;
+  outline: none;
+}
+#login-wrap .bg-wrap .login-content #wrap .fm_list li .fidld_skip {
+  font-size: 16px;
+  border: 1px solid #88b84b;
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 5px;
+  color: #88b84b;
+}
+#login-wrap .bg-wrap .login-content #wrap .set_link {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1rem;
+}
+#login-wrap .bg-wrap .login-content #wrap .set_link .problem {
+  font-size: 16px;
+  color: #666;
+  display: flex;
+  justify-content: space-around;
+}
+#login-wrap .bg-wrap .login-content #wrap .set_link .problem a {
+  display: inline-block;
+  color: #88b84b;
+}
+#login-wrap .bg-wrap .login-content #wrap .set_link a {
+  font-size: 16px;
+  color: #88b84b;
+}
+#login-wrap .bg-wrap .login-content #wrap #setting {
+  display: flex;
+  justify-content: flex-end !important;
+}
+#login-wrap .bg-wrap .login-content #wrap .btn_login {
+  background-color: #88b84b;
+  color: #fff;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 19px;
+  outline: none;
+  line-height: 40px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#login-wrap .bg-wrap .login-content #wrap .btn_regisiter {
+  background-color: rgba(180,180,180,0.5);
+  color: #fff;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 19px;
+  outline: none;
+  line-height: 40px;
+  border-radius: 10px;
+}
